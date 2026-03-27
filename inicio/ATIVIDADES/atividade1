@@ -1,0 +1,40 @@
+var produto = "motor";
+var preco = 15000;
+var estoque = 5;
+
+var produto1 = "bateria";
+var preco1 = 350;
+var estoque1 = 10;
+
+var produto2= "biela";
+var preco2= 1000;
+var estoque2= 18;
+
+//--------------------------------------------------------------------------------------------
+
+// mensagem " 0 "
+let mensagem = estoque > 3 ? "com estoque" : "sem estoque";
+console.log(mensagem);
+
+console.log(`o item ${produto} custa: ${preco}
+disponibilidade: ${estoque}`);
+
+//--------------------------------------------------------------------------------------------
+
+// mensagem " 1 "
+let mensagem1= estoque1 > 5 ? "com estoque" : "sem estoque";
+console.log(mensagem1);
+
+console.log(`o item ${produto1} custa: ${preco1}
+disponibilidade: ${estoque1}`);
+
+//--------------------------------------------------------------------------------------------
+
+// mensagem " 2 "
+let mensagem2= estoque2 > 3 ? "com estoque" : "sem estoque";
+console.log(mensagem2);
+
+console.log(`o item ${produto2} custa: ${preco2}
+disponibilidade: ${estoque2}`);
+
+//--------------------------------------------------------------------------------------------

@@ -1,0 +1,5 @@
+let carrinhodecompras = 40;
+let desconto = 0.10;
+let preço = 100;
+
+let mensagem = hora < 12 ? "bom dia" : "boa tarde";

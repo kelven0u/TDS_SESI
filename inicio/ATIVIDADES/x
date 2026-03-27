@@ -1,0 +1,32 @@
+var produto = "banana";
+var preco = 5;
+var estoque = 5;
+
+var produto1 = "mamão papaia";
+var preco1 = 7;
+var estoque1 = 10;
+
+var produto2= "abacaxi";
+var preco2= 10;
+var estoque2= 18;
+
+// mensagem " 0 "
+let mensagem = estoque > 3 ? "com estoque" : "sem estoque";
+console.log(mensagem);
+
+console.log(`A Fruta ${produto} custa: R$${preco}
+restão: ${estoque}`);
+
+// mensagem " 1 "
+let mensagem1 = estoque1 > 3 ? "com estoque" : "sem estoque";
+console.log(mensagem1);
+
+console.log(`A Fruta ${produto1} custa: R$${preco1}
+restão: ${estoque1}`);
+
+// mensagem " 2 "
+let mensagem2 = estoque2 > 3 ? "com estoque" : "sem estoque";
+console.log(mensagem2);
+
+console.log(`A Fruta ${produto2} custa: R$${preco2}
+restão: ${estoque2}`);

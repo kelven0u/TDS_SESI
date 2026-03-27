@@ -1,0 +1,9 @@
+let idade = 16;
+possuiConvite = true;
+let mensagem = convite = true ? "acesso permitido" : "acesso negado"; 
+
+if(idade >= 18){
+    console.log("voçê está autorizado");
+}else{
+console.log("você não está autorizado");
+}

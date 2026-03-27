@@ -1,0 +1,5 @@
+var idadeDoCachorro = 6;
+let resultado;
+
+resultado = idadeDoCachorro * 7;
+console.log(`se a idade de um humano for ${idadeDoCachorro}, sua idade e equivalente ${resultado} anos cachorrenses,` )

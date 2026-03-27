@@ -1,0 +1,13 @@
+let computador = 0;
+if (computador = 5) {
+if (computador <= 6)
+    console.log("ligado");
+
+}else if (computador =5) {
+
+    console.log("suspenso");
+
+}else {
+    if (computador <=2)
+    console.log("desligado");
+}
