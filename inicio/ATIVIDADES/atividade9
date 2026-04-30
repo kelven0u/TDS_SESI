@@ -1,0 +1,11 @@
+function saudar(nome, horaAtual) {
+    if (horaAtual >= 0 && horaAtual <= 11) {
+        return `Bom dia, ${nome}!`;
+    } else if (horaAtual >= 12 && horaAtual <= 17) {
+        return `Boa tarde, ${nome}!`;
+    } else {
+        return `Boa noite, ${nome}!`;
+    }
+}
+
+console.log(saudar("Carlos", 14));
