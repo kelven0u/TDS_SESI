@@ -1,0 +1,6 @@
+let hardware = ["Processador", "Memória RAM", "Placa Mãe", "Gabinete", "Fonte"];
+
+hardware.push("SSD"); // Adiciona ao final
+hardware.shift();     // Remove o primeiro (Processador)
+
+console.log("Estado final da lista:", hardware);
